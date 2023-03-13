@@ -29,3 +29,10 @@ h3 {
 .transparent-text {
     color: rgba(0, 0, 0, 0.5);
 }
+/* Task 2.4 */
+body {
+    background-color: #DCF5F5;
+    background-image: "cross.png";
+    background-repeat: repeat;
+    background-position: top left;
+}
