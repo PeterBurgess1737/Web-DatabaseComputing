@@ -36,3 +36,13 @@ body {
     background-repeat: repeat;
     background-position: top left;
 }
+/* Task 2.5 */
+#content {
+    background-color: white;
+}
+.blue {
+    color: blue;
+}
+.fancy {
+    font-family: cursive;
+}
