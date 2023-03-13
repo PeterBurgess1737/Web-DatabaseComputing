@@ -32,7 +32,7 @@ h3 {
 /* Task 2.4 */
 body {
     background-color: #DCF5F5;
-    background-image: "cross.png";
+    background-image: url("cross.png");
     background-repeat: repeat;
     background-position: top left;
 }
