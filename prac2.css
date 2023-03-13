@@ -46,3 +46,31 @@ body {
 .fancy {
     font-family: cursive;
 }
+/* Task 2.6 */
+#content { /* I know i should combine this with the previous content id, but I want the tasks to be seperate */
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+}
+.red-border {
+    border: solid red;
+}
+hr {
+    border-color: #CFDFE4;
+}
+.red-outline {
+    outline: solid red;
+}
+.blue-border {
+    border: solid blue;
+}
+.red-border-top {
+    border: solid red;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.blue-border-bottom {
+    border: solid blue;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
