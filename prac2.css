@@ -105,3 +105,31 @@ hr {
 #second-div {
     margin-top: 20px;
 }
+/* Task 2.8 */
+h1 {
+    font-family: Raleway, sans-serif;
+}
+h2 {
+    font-family: Raleway, sans-serif;
+}
+p {
+    font-family: "Noto Serif", serif;
+}
+blockquote {
+    color: dimgrey;
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+}
+h4 {
+    font-family: Raleway, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: normal;
+}
+I {
+    color: #DFCFD4;
+}
+#icons {
+    text-align: center;
+}
