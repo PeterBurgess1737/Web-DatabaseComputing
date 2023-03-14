@@ -74,3 +74,33 @@ hr {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+/* Task 2.7 */
+.parent-div {
+    /* Both parents have a blue background */
+    background-color: blue;
+}
+.inner-div {
+    /* Both nested divs have yellow bg and 12px padding*/
+    padding: 12px;
+    background-color: yellow;
+    text-align: right;
+}
+
+#first-inner-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 700px;
+    height: 200px;
+}
+#second-inner-div {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#second-div {
+    margin-top: 20px;
+}
