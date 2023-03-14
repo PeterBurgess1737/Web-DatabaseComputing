@@ -137,9 +137,11 @@ I {
 #list-menu {
     background-color: darkgrey;
     color: white;
+    list-style-type: none;
 }
-#list-menu a {
-    padding: 20px;
+#list-menu li {
+    display: inline-block;
+    margin: 10px;
 }
 #list-menu a:hover {
     background-color: white;
