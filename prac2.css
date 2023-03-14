@@ -136,7 +136,6 @@ I {
 /* Task 2.9 */
 #list-menu {
     background-color: darkgrey;
-    color: white;
     list-style-type: none;
 }
 #list-menu li {
@@ -144,6 +143,7 @@ I {
     margin: 10px;
 }
 #list-menu a {
+    color: white;
     text-decoration: none;
 }
 #list-menu a:hover {
