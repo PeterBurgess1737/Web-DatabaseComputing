@@ -161,3 +161,44 @@ ol ul {
 ol ul ol {
     list-style-type: lower-roman;
 }
+/* Task 2.10 */
+#fancy-table {
+    border-collapse: collapse;
+    width: 500px;
+}
+#fancy-table tr {
+    border-bottom: 1px solid darkgrey;
+    height: 2em;
+}
+#fancy-table th {
+    background-color: darkslategrey;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+}
+#fancy-table tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+#fancy-table tr:nth-child(odd) {
+    background-color: white;
+}
+
+#complex-table {
+    border-collapse: collapse;
+    width: 500px;
+    border: 2px solid black;
+}
+#complex-table tr {
+    height: 2em;
+}
+#complex-table th {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+    padding: 6px;
+}
+#complex-table td {
+    border: 1px solid lightgrey;
+    padding-left: 6px;
+}
