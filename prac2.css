@@ -96,6 +96,7 @@ hr {
     height: 200px;
 }
 #second-inner-div {
+    box-sizing: border-box;
     width: 400px;
     height: 400px;
     margin: auto;
