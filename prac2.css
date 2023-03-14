@@ -143,10 +143,13 @@ I {
     display: inline-block;
     margin: 10px;
 }
+#list-menu a {
+    text-decoration: none;
+}
 #list-menu a:hover {
     background-color: white;
     color: darkgrey;
-    text-shadow: lightgrey;
+    text-shadow: 2px 2px 4px lightgrey;
 }
 ol {
     list-style-type: normal;
