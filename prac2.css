@@ -133,3 +133,25 @@ I {
 #icons {
     text-align: center;
 }
+/* Task 2.9 */
+#list-menu {
+    background-color: darkgrey;
+    color: white;
+}
+#list-menu a {
+    padding: 20px;
+}
+#list-menu a:hover {
+    background-color: white;
+    color: darkgrey;
+    text-shadow: lightgrey;
+}
+ol {
+    list-style-type: normal;
+}
+ol ul {
+    list-style-type: square;
+}
+ol ul ol {
+    list-style-type: lower-roman;
+}
